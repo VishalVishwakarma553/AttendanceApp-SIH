@@ -106,10 +106,8 @@ const HomePage = () => {
             whileHover={{ scale: 1.05 }}
             className="flex items-center space-x-2"
           >
-            <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-lg flex items-center justify-center">
-              <CheckCircle className="w-5 h-5 text-white" />
-            </div>
-            <span className="text-xl font-bold text-gray-800">AttendEase</span>
+            <img src="/Frame.svg" alt="logo" className='object-cover h-10 w-10' />
+            <span className="text-xl font-bold text-gray-800">Snaptic</span>
           </motion.div>
 
           <div className="hidden md:flex space-x-8">
